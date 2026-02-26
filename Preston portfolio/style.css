@@ -1,0 +1,227 @@
+img {width: 800px;}
+a { border-style: double; align-self: center;
+border-color: rgb(234, 104, 5);}
+img {
+  width: 800px;
+  display: block;   /* Makes the image behave like a block/box */
+  margin: 0 auto;   /* Automatically balances the left/right space */
+}
+/* Moves everything down from the top */
+body {
+    margin-top: 200px;
+    font-family: Arial, sans-serif;
+}
+ h1 { font-family: t, sans-serif; color: rgb(255, 255, 255); text-align: center;
+
+    text-decoration: none; /* Removes underline from the header text */
+}
+hyperlink { font-family: t, sans-serif; color: rgb(255, 255, 255); text-align: left; text-decoration: none;}
+.main-container {
+    display: flex;
+    align-items: flex-start; /* Keeps text aligned at the top of the image */
+    justify-content: space-between;
+    padding: 50px;
+    gap: 60px;
+}
+a {
+  text-decoration: none !important;
+}
+.text-content {
+    flex: 1;
+}
+
+/* Increases size of the "General Information" text */
+.text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Increases size of bullet points */
+.text-content ul {
+    font-size: 1.5rem;
+    line-height: 1.8; /* Adds space between lines */
+}
+
+/* Controls the large image size */
+.image-content img {
+    width: 600px;      /* Fixed large width */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Adds a professional shadow */
+}
+
+.button-87 {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+
+.button-container {
+  display: flex;        /* Activates flexbox */
+  gap: 10px;           /* Adds space between the buttons */
+   /* Optional: centers buttons horizontally */
+}
+
+
+
+/* Moves everything down from the top */
+body {
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+
+.portfolio-header {
+    margin-left: 50px; /* Aligns with the container below */
+    font-size: 2rem;   /* Makes "Portfolio" larger */
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-start; /* Keeps text aligned at the top of the image */
+    justify-content: space-between;
+    padding: 50px;
+    gap: 60px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+/* Increases size of the "General Information" text */
+.text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Increases size of bullet points */
+.text-content ul {
+    font-size: 1.5rem;
+    line-height: 1.8; /* Adds space between lines */
+}
+
+/* Controls the large image size */
+.image-content img {
+    width: 600px;      /* Fixed large width */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Adds a professional shadow */
+}
+
+.button-87 {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+border-radius: 30px; padding: ; text-decoration: none; color: rgb(255, 255, 255)}
+text { font-family: t, sans-serif; color: rgb(169, 169, 169);}
+head { background-color: rgb(187, 103, 7);}
+body{
+  background-image: url("new\ background.png");
+}
+p { font-family: t, sans-serif; color: rgb(169, 169, 169);text-align: center;}
+h1 { font-family: t, sans-serif; color: rgb(255, 255, 255);}
+h3 { font-family: t, sans-serif; color: rgb(169, 169, 169);}
+h4 { font-family: t, sans-serif; color: rgb(169, 169, 169);text-align: left;}
+li { font-family: t, sans-serif; color: rgb(169, 169, 169);text-align: left;}
+ul { font-family: t, sans-serif; color: rgb(169, 169, 169); text-align: left;}
+h2 { font-family: t, sans-serif; color: rgb(168, 168, 168); text-align: left;}
+img {align-self: center; border-style: double; border-color: rgb(234, 104, 5); width: 900px;}
+/* Ensure the body takes up the full height of the screen for proper vertical centering */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    /* Flexbox properties to center content both horizontally and vertically */
+    display: flex;
+    align-items: center; /* Centers vertically within the container */
+    justify-content: center; /* Centers horizontally within the container */
+    
+    /* Ensure the container can grow to fill available space */
+    flex-grow: 1; 
+    
+    /* Add some padding so content doesn't touch the screen edges */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the text side (optional, keeps text contained) */
+.text-content {
+    flex: 1;
+    padding: 20px;
+    /* Centers the text elements within the left container */
+    text-align: center; 
+}
+
+/* Style for the image container */
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centers image horizontally within its side */
+    align-items: center; /* Centers image vertically within its side */
+    padding: 20px;
+}
+
+/* Style for the actual images */
+.image-content img {
+    /* Enlarge: Make the image take up most of its container width */
+    max-width: 90%; 
+    /* Enlarge: Limit height to 90% of the screen height for large images */
+    max-height: 80vh; 
+    
+    /* Ensures the image covers the space without being distorted */
+    object-fit: contain; 
+    
+    /* Make sure image maintains its aspect ratio */
+    height: auto; 
+    width: auto;
+}
+.button-container {
+    display: flex;             /* Modern layout engine for 2026 */
+    flex-direction: row;       /* Standard horizontal alignment */
+    justify-content: center;   /* Centers the buttons horizontally */
+    gap: 15px;                 /* Adds even space between buttons */
+    padding: 20px 0;           /* Adds space above and below the menu */
+    flex-wrap: wrap;           /* Allows buttons to wrap on small mobile screens */
+}
+
+/* Optional: Ensure the buttons look consistent */
+.button-87 {
+    min-width: 150px;
+    cursor: pointer;
+}
